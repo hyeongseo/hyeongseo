@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    font-size: 16px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+p{
+    font-family: 'Lato';
+    color: #111;
+    line-height: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}

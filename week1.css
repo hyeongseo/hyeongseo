@@ -1,0 +1,12 @@
+h1{
+    font-family: 'Baloo Bhaina'; /*구글에서 긁어와서 쓸 수 있는 것!*/
+    font-size: 50px;
+    color: green;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+}
+li{
+    font-size: 25px;
+}
