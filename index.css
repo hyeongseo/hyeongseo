@@ -9,6 +9,7 @@ nav{
 	z-index: 3;
 }
 header{
+	position: relative;
 	width: 100vw;
 }
 section{
@@ -54,15 +55,6 @@ input:hover{
 	overflow: hidden;
 	position: relative;
 	background-color: #f0dcc3;
-	display: flex;
-	justify-content: space-around;
-}
-.container3{
-	margin: 0 auto;
-	padding: 0;
-	width: 800px;
-	overflow: hidden;
-	background-color: #f0dcc3;
 }
 
 .article img{
@@ -78,11 +70,6 @@ input:hover{
 }
 .img_header img{
 	width: 800px;
-	position: relative;
-}
-.img_header{
-	width: 800px;
-	margin: 0 auto;
 }
 .img_header h1{
 	position: absolute;
@@ -106,7 +93,6 @@ input:hover{
 .box{
 	float: left;
 	margin-top: 5px;
-	margin-bottom: 5px;
 	padding-top: 4px;
 	width: 260px;
 	text-align: center;
@@ -123,8 +109,16 @@ input:hover{
 }
 .box p{
 	color: rgb(61,57,61);
+	margin-bottom: 230px;
 }
-
+.rightbox{
+	position: absolute;
+	right: 0;
+}
+.centerbox{
+	position: absolute;
+	left: 270px;
+}
 
 .footdiv{
 	height: 60px;
